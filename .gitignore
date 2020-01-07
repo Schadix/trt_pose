@@ -1,1 +1,8 @@
 .idea/
+build/
+dist/
+__pycache__
+trt_pose.egg-info
+trt_pose/plugins.cpython-37m-darwin.so
+tasks/human_pose/densenet121_baseline_att_256x256_B_epoch_160.pth
+tasks/human_pose/resnet18_baseline_att_224x224_A_epoch_249.pth
