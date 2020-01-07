@@ -1,5 +1,4 @@
-import cv2
-from jetcam.mac_camera import MacCamera
+from jetcam.csi_camera import CSICamera
 
 import json
 import trt_pose.coco
@@ -28,7 +27,7 @@ from trt_pose.parse_objects import ParseObjects
 parse_objects = ParseObjects(topology)
 draw_objects = DrawObjects(topology)
 
-camera = MacCamera()
+camera = CSICamera()
 
 image = camera.read()
 
